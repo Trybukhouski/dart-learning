@@ -7,5 +7,5 @@ List<int> invert(List<int> arr) {
 }
 
 void main() {
-  print(invert([2,4,-3,-2,4,-3]));
+  print(invert([2, 4, -3, -2, 4, -3]));
 }
