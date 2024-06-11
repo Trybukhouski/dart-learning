@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/55908aad6620c066bc00002a
+
 bool XO(String str) {
   Map<String, int> count = Map();
   str.toLowerCase().split('').forEach((String el) => count[el] = (count[el] ?? 0) + 1);
