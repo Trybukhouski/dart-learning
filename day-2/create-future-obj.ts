@@ -2,7 +2,7 @@ function sum(): number {
     return 10 + 5;
 }
 
-function main() {
+export function main() {
     const future: Promise<number> = new Promise(resolve => {
         resolve(sum())
     });
